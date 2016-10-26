@@ -20,7 +20,7 @@ it {
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -c-1 ./app",
+    "start": "http-server ./app",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
